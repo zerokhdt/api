@@ -7,12 +7,13 @@ app.use(cors());
 app.use(express.json());
 
 const config = {
-    user: 'sa',
-    password: '123456',
-    server: 'localhost',
+    user: 'admin',
+    password: 'Kingof56',
+    server: '108.181.197.183',
+    port: 10086,
     database: 'Flutter_app',
     options: {
-        encrypt: false, // Sử dụng mã hóa nếu cần
+        encrypt: true, // Sử dụng mã hóa nếu cần
         trustServerCertificate: true,
     }
 };
