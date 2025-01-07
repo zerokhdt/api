@@ -262,9 +262,3 @@ app.get('/api/setpriority/:userId/:pksId/:dates', async (req, res) => {
         res.status(500).send(err.message);
     }
 });
-
-
-const PORT = 3000;
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
